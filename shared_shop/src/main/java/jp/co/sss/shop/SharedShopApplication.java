@@ -1,6 +1,4 @@
 package jp.co.sss.shop;
-//test
-//hoihoi
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
