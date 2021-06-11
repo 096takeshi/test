@@ -47,6 +47,10 @@ public class ItemBean {
 	 */
 	private String	categoryName;
 
+	private Float averageRate;
+
+	private Float averageRateByPointFive;
+
 	public Integer getId() {
 		return id;
 	}
@@ -109,6 +113,22 @@ public class ItemBean {
 
 	public void setCategoryName(String categoryName) {
 		this.categoryName = categoryName;
+	}
+
+	public Float getAverageRate() {
+		return averageRate;
+	}
+
+	public void setAverageRate(Float averageRate) {
+		this.averageRate = averageRate;
+	}
+
+	public Float getAverageRateByPointFive() {
+		return averageRateByPointFive;
+	}
+
+	public void setAverageRateByPointFive(Float averageRateByPointFive) {
+		this.averageRateByPointFive = averageRateByPointFive;
 	}
 
 }
